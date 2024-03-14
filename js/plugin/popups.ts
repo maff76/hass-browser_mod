@@ -390,6 +390,8 @@ class BrowserModPopup extends LitElement {
           --mdc-dialog-max-height: 100%;
           --vertical-align-dialog: flex-end;
           --ha-dialog-border-radius: 0;
+          --vertical-align-dialog: flex-start;
+          --ha-dialog-border-radius: var(--popup-border-radius, 28px);
         }
         :host([wide]) .content {
           width: 100vw;
